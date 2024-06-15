@@ -70,11 +70,11 @@ const Portfolio = () => {
                                         transition duration-300'>
                             Visit Figma
                         </a>
-                        <a href={project.links.github}
+                        {/* <a href={project.links.github}
                             className='px-4 py-2 bg-slate-600 text-gray-200 rounded-lg hover:bg-slate-700
                                         transition duration-300'>
                             <AiOutlineBehance/>
-                        </a>
+                        </a> */}
 
                     </div>
 

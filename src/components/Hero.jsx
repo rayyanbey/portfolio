@@ -13,7 +13,7 @@ import cv from '../assets/Shahryar Haroon Resume.pdf';
 
 const Hero = () => {
   return (
-    <div className=" w-full mt-24 md:mt-12 relative">
+    <div className=" w-full mt-24 md:mt-12 p-4 relative">
       <div className="grid md:grid-cols-2 place-items-center gap-8">
         <motion.div
           initial={{ opacity: 0, y: -50 }}

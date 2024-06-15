@@ -1,7 +1,7 @@
-import React from "react"
-import { AiFillLinkedin, AiFillGithub } from "react-icons/ai"
-import { motion } from "framer-motion"
-import Reveal from "./Reveal"
+import React from "react";
+import { AiFillMail } from "react-icons/ai";
+import { motion } from "framer-motion";
+import Reveal from "./Reveal";
 
 const Contact = () => {
   return (
@@ -50,8 +50,14 @@ const Contact = () => {
           </div> 
         </div>
       </Reveal>
+      <div className="flex justify-center items-center mt-10">
+        <a href="mailto:shahryarharoon123@gmail.com" className="flex items-center gap-2 text-gray-300 text-xl">
+          <AiFillMail size={30} />
+          <span>Contact Me: shahryarharoon123@gmail.com</span>
+        </a>
+      </div>
     </div>
-  )
+  );
 }
 
-export default Contact
+export default Contact;
