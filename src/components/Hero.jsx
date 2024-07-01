@@ -91,7 +91,7 @@ const Hero = () => {
 
         <motion.img
           src={profilepic}
-          className="w-[300px] md:w-[450px]"
+          className="w-[300px] md:mt-3 md:w-[450px]"
           initial={{ opacity: 0, scale: 0.8 }}
           whileInView={{ opacity: 1, scale: 1 }}
           viewport={{ once: true }}
