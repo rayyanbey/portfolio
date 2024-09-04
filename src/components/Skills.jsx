@@ -5,15 +5,14 @@ const skills = [
   {
     category: 'Technical Skills',
     technologies: [
-      { name: 'Mobile App Designing' },
-      { name: 'Web Designing' },
-      { name: 'UI/UX' },
-      { name: 'UI/UX Prototyping' },
-      { name: 'UX Research' },
-      { name: 'Graphic Designing' },
-      { name: 'Illustration' },
-      { name: 'Icon Designing' },
-      { name: 'Logo Designing' },
+      { name: 'Scikit-learn' },
+      { name: 'Python' },
+      { name: 'JavaScript' },
+      { name: 'MERN' },
+      { name: 'JAVA' },
+      { name: 'SpringBoot' },
+      { name: 'SQL' },
+      { name: 'Github' }
     ],
   },
   {
@@ -26,7 +25,7 @@ const skills = [
       { name: 'Open-minded' },
       { name: 'Innovative' },
       { name: 'Adaptability' },
-      { name: 'Team Player' },
+      { name: 'Leader' },
     ],
   },
 ]

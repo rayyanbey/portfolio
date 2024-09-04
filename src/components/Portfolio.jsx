@@ -1,49 +1,60 @@
 import React from 'react';
-import project1 from "../assets/project1.png"
-import project2 from "../assets/project2.png"
-import project4 from "../assets/project4.png"
-import project5 from "../assets/project5.png"
-import project6 from "../assets/project6.png"
-import { AiFillGithub, AiOutlineBehance } from 'react-icons/ai'
+import { AiFillGithub, AiOutlineBehance, AiOutlineGithub } from 'react-icons/ai'
+import project1 from '../assets/project1.png';	
+import project3 from '../assets/project3.png';	
+import project4 from '../assets/project4.png';
+import project2 from '../assets/project2.png';
+import project5 from '../assets/project5.png';
 import Reveal from './Reveal';
 
 const projects = [
     {
       img: project1,
       title: "Project #1",
-      description: "Gear Vault is an e-commerce platform for gaming equipment.",
+      description: "Connectify: Your own chat app",
       links: {
-        site: 'https://www.figma.com/design/KLG3QDeSBs9IfhIkS4kjb5/Prototype?node-id=159-2',
-        github: "https://www.behance.net/gallery/199563811/GearVault-(Gaming-Equipment-Store)",
+        site: 'https://connectify-two-phi.vercel.app/',
+        github: "https://github.com/rayyanbey/connectify",
+      },
+    },
+    {
+      img: project3,
+      title: "Project #2",
+      description: "Password Manager Application",
+      links: {
+        site: "https://password-manager-five-psi.vercel.app/",
+        github: "https://github.com/rayyanbey/password-generator",
       },
     },
     {
       img: project2,
-      title: "Project #2",
-      description: "UI for Event Management APP",
-      links: {
-        site: "https://www.figma.com/design/IJgv2BdGMAdIYOPk7TfLhS/Untitled",
-        github: "https://www.figma.com/design/IJgv2BdGMAdIYOPk7TfLhS/Untitled",
-      },
-    },
-    {
-      img: project4,
       title: "Project #3",
-      description: "Little Lemon App.",
+      description: "Cuisine Control",
       links: {
-        site: "https://www.figma.com/design/snQjD5FKoiaPx1CQJiKV2n/Little-Lemon?node-id=0-1",
-        github: "#",
+        site: "#",
+        github: "https://github.com/rayyanbey/Cuisine-Control",
       },
     },
     {
-      img: project5,
+    
+      img: project4,
       title: "Project #4",
-      description: "Wallpaper App",
+      description: "Weather Application",
       links: {
-        site: "https://www.figma.com/design/HHnWomuIVw78CcLHyWInQb/Untitled",
-        github: "#",
+        site: "https://rayyan-weather-app-a539a.web.app/",
+        github: "https://github.com/rayyanbey/Weather_Application.git",
       },
     },
+    {
+    
+      img: project5,
+      title: "Project #5",
+      description: "Dollar Price Predictor",
+      links: {
+        site: "#",
+        github: "https://github.com/rayyanbey/Dollar_Price_Prediction",
+      },
+    }
   ]
 
 const Portfolio = () => {
@@ -68,13 +79,14 @@ const Portfolio = () => {
                         <a href={project.links.site}
                             className='px-4 py-2 bg-slate-600 text-gray-200 rounded-lg hover:bg-slate-700
                                         transition duration-300'>
-                            Visit Figma
+                            Visit Site
                         </a>
-                        {/* <a href={project.links.github}
+                        <a href={project.links.github} target='_blank'
                             className='px-4 py-2 bg-slate-600 text-gray-200 rounded-lg hover:bg-slate-700
                                         transition duration-300'>
-                            <AiOutlineBehance/>
-                        </a> */}
+                            <AiOutlineGithub/>
+                            
+                        </a>
 
                     </div>
 

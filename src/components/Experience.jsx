@@ -4,14 +4,14 @@ import Reveal from './Reveal'
 
 const experiences = [
     {
-        company: 'Softsquare',
-        period: '2020 - 2022',
-        description: 'I helped in creating impactful design    projects from concept to execution.        Specialized in crafting visually stunning        brand identities, marketing materials, and        digital assets, contributing to company        goals.',
+        company: 'Eritheia Labs',
+        period: 'July 2024 - August 2024',
+        description: 'I had a wonderful internship and learned backend development using Javascript',
       },
       {
-        company: 'Freelancer',
-        period: '2022 - Present',
-        description: 'UI/UX designer with a history of        delivering user-centric designs for        various clients. Proficient in creating        intuitive interfaces and seamless user        experiences that align with client goals.',
+        company: 'Upwork Freelancer',
+        period: '2023 - Present',
+        description: 'I am available as a freelancer on Upwork',
       },
     ]
 
