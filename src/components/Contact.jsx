@@ -47,7 +47,7 @@ const Contact = () => {
         </div>
       </Reveal>
       <div className="flex justify-center items-center mt-10">
-        <a href="mailto:shahryarharoon123@gmail.com" className="flex items-center gap-2 text-gray-300 text-xl">
+        <a href="mailto:rayyanasghar9@gmail.com" className="flex items-center gap-2 text-gray-300 text-xl">
           <AiFillMail size={30} />
           <span>Contact Me: rayyanasghar9@gmail.com</span>
         </a>
